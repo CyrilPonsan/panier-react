@@ -1,0 +1,43 @@
+.tablePanier {
+    width: 50%;
+    > thead {
+        text-align: center;
+        > tr {
+            background-color: black;
+            color: white;
+        }
+    }
+    > tbody {
+        //border-collapse: collapse;
+        border-bottom: 1px solid darkgrey;
+        > tr {
+            color: black;
+            > td {
+                text-align: center;
+            }
+            > td:nth-child(1) {
+                text-align: left;
+                border-bottom: 1 px solid darkgray;
+            }
+            > td {
+                background-color: white;
+                padding: .5vh .5vw;
+            }
+            > td:nth-child(5) {
+                background-color: transparent;
+            }
+        }
+    }
+    > tfoot {
+        > tr {
+            > td {
+                text-align: center;
+                color: white;
+                padding: .5vh .5vw;
+            } 
+            > td:nth-child(3), > td:nth-child(4) {
+                background-color: black;
+            }
+        }
+    }
+}

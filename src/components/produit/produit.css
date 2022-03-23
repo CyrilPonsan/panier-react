@@ -1,0 +1,51 @@
+section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  font-size: calc(12px + 0.75vw);
+}
+section > article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgray;
+}
+section > article > div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section > article > div:nth-child(2) {
+  width: 15%;
+  justify-content: space-evenly;
+}
+section > div {
+  width: 95%;
+  display: flex;
+  justify-content: end;
+}
+
+.bouton {
+  padding: 0.75vw 1.25vw;
+  color: white;
+  background-color: #007bfe;
+  border-radius: 5px;
+}
+.bouton > a {
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1400px) {
+  section {
+    width: 60%;
+    font-size: calc(12px + 0.75vw);
+  }
+}
+@media screen and (max-width: 800px) {
+  section {
+    width: 90%;
+  }
+}/*# sourceMappingURL=produit.css.map */

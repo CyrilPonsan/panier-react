@@ -1,0 +1,38 @@
+.tablePanier {
+  width: 50%;
+}
+.tablePanier > thead {
+  text-align: center;
+}
+.tablePanier > thead > tr {
+  background-color: black;
+  color: white;
+}
+.tablePanier > tbody {
+  border-bottom: 1px solid darkgrey;
+}
+.tablePanier > tbody > tr {
+  color: black;
+}
+.tablePanier > tbody > tr > td {
+  text-align: center;
+}
+.tablePanier > tbody > tr > td:nth-child(1) {
+  text-align: left;
+  border-bottom: 1 px solid darkgray;
+}
+.tablePanier > tbody > tr > td {
+  background-color: white;
+  padding: 0.5vh 0.5vw;
+}
+.tablePanier > tbody > tr > td:nth-child(5) {
+  background-color: transparent;
+}
+.tablePanier > tfoot > tr > td {
+  text-align: center;
+  color: white;
+  padding: 0.5vh 0.5vw;
+}
+.tablePanier > tfoot > tr > td:nth-child(3), .tablePanier > tfoot > tr > td:nth-child(4) {
+  background-color: black;
+}/*# sourceMappingURL=panier.css.map */

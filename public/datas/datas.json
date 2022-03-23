@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nom": "Rhum Bio",
+        "prix": 15
+    },
+    {
+        "id": 2,
+        "nom": "Vieux Rhum",
+        "prix": 39
+    },
+    {
+        "id": 3,
+        "nom": "Sucre de canne Bio",
+        "prix": 4.99
+    },
+    {
+        "id": 4,
+        "nom": "Sucre de canne liquide",
+        "prix": 9.9
+    }
+]
